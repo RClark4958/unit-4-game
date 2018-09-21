@@ -41,17 +41,17 @@ window.onload = function() {
     purpleCrystal = undefined;
     silverCrystal = undefined;
     
-    var random = Math.floor(Math.random()* 101 + 19);
+    random = Math.floor(Math.random()* 101 + 19);
     
     $(".randomNumDisplay").html(random);
     console.log("Random number: " + random);
-    var greenCrystal = Math.floor(Math.random() * 11 + 1);
+    greenCrystal = Math.floor(Math.random() * 11 + 1);
     console.log("Green: " + greenCrystal);
-    var redCrystal = Math.floor(Math.random() * 11 + 1);
+    redCrystal = Math.floor(Math.random() * 11 + 1);
     console.log("Red: " + redCrystal);
-    var purpleCrystal = Math.floor(Math.random() * 11 + 1);
+    purpleCrystal = Math.floor(Math.random() * 11 + 1);
     console.log("Purple: " + purpleCrystal);
-    var silverCrystal = Math.floor(Math.random() * 11 + 1);
+    silverCrystal = Math.floor(Math.random() * 11 + 1);
     console.log("Crystal: " + silverCrystal);
 
     userScore = 0;
