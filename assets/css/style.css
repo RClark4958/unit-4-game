@@ -1,0 +1,62 @@
+body {
+  background-image: url(../images/funky-lines.png);
+  background-repeat: repeat;
+  background-size: auto;
+}
+  
+  
+img {
+  width: 50%;
+}
+
+.instructions {
+  width: 40%;
+  padding-left: 40px;
+}
+
+h1 {
+  font-family: 'Overlock SC', cursive;
+  text-align: center;
+  font-size: 36px;
+}
+
+.heading p, .instructions {
+  font-family: 'Offside', cursive;
+  text-align: left;
+  line-height: 30px;
+  font-size: 16px;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.randomNum {
+  background-color: lightgreen;
+  width: 20%;
+  float: left;
+  margin: 10px;
+  font-size: 36px;
+}
+
+.yourScore{
+  background-color:lightslategray;
+  width: 20%;
+  float: left;
+  margin: 10px;
+  font-size: 36px
+}
+
+.winsAndLosses {
+  background-color: skyblue;
+  width: 20%;
+  float: left;
+  margin: 10px;
+  font-size: 36px
+}
+
+.randomNumDisplay, .yourScoreDisplay {
+  font-family: 'Overlock SC', cursive;
+}
